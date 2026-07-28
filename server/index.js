@@ -41,6 +41,13 @@ function authMiddleware(req, res, next) {
   }
 }
 
+// ─── Welcome Root ────────────────────────────────────────────────────────────
+
+app.get("/", (req, res) => {
+  res.send("Welcome to the Pin-Money API Backend Server!");
+});
+
+
 // ─── Health ──────────────────────────────────────────────────────────────────
 
 app.get("/api/health", (req, res) => {
