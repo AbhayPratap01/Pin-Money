@@ -5,12 +5,14 @@ import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 import User from "./models/User.js";
 import Loan from "./models/Loan.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || "pinmoney-secret";
+const PORT = process.env.PORT;
+const JWT_SECRET = process.env.JWT_SECRET;
 const SALT_ROUNDS = 10;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/pinmoney";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // Connect to MongoDB
 mongoose
