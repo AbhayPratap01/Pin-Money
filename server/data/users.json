@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1785003808688",
+    "name": "Abhay Pratap Singh",
+    "mobile": "9953465787",
+    "email": "ayt9953@gmail.com",
+    "pan": "8765432",
+    "aadhaar": "123456789876",
+    "password": "$2b$10$lMldP0OuxEEeu.mPMiI6CuSltLxXrX7LjbHRpC2hHOPqljjuwQyRW",
+    "createdAt": "2026-07-25T18:23:28.688Z"
+  },
+  {
+    "id": "1785237603851",
+    "name": "Abhay Pratap Singh",
+    "mobile": "9953461787",
+    "email": "ay9953@gmail.com",
+    "pan": "8765432",
+    "aadhaar": "123456789876",
+    "password": "$2b$10$8WM7FkefrfFSQYkd97uymOt.inwdguTdTCwgLAU88/ldzr89KQvUi",
+    "createdAt": "2026-07-28T11:20:03.852Z"
+  }
+]
